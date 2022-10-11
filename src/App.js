@@ -45,7 +45,7 @@ function App() {
 
       console.log(receiverBalance, "New Balance");
     } catch (error) {
-      console.log(error);
+      console.log(error, "error");
       throw error;
     }
   };
